@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="nyktree — Nicolas Maricato's personal portfolio. Creative coding, digital craft, and selected projects.">
+  <title>nyktree // portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="atmosphere" aria-hidden="true"></canvas>
+  <div class="cursor-orbit" aria-hidden="true"><span></span></div>
+  <header class="site-header">
+    <div class="site-shell">
+      <div class="header-row">
+        <a class="brand" href="#top">nyktree</a>
+        <span class="status">[ status: open to ideas ]</span>
+      </div>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#about">about</a>
+        <a href="#work">work</a>
+        <a href="#practice">practice</a>
+        <a href="#now-playing">now playing</a>
+        <a href="#contact">contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top" class="site-shell">
+    <section class="hero" aria-labelledby="hero-title">
+      <div>
+        <div class="kicker">// personal portfolio / 2026</div>
+        <h1 id="hero-title">nyk<br>tree</h1>
+        <h2>Computer science student making thoughtful things with code, images, sound, and the open-ended possibilities of the computer.</h2>
+      </div>
+      <figure class="hero-art" aria-hidden="true">
+        <img src="assets/runner-vision-dithered.svg" alt="Red-tinted dithered artwork used as the portfolio's visual signature">
+      </figure>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-heading"><h2>about / introduction</h2><span class="section-number">01</span></div>
+      <div class="about-grid">
+        <p>My name is Nicolas. I am currently graduating in computer science, with a passion for games, music, and the use of the computer as a creative instrument.</p>
+        <p class="note">I like exploring new technologies and turning ideas into reality through polished, thoughtfully crafted projects somewhere between a sketchbook, a tool, and a finished piece.</p>
+      </div>
+    </section>
+
+    <section id="work" class="section">
+      <div class="section-heading"><h2>selected work</h2><span class="section-number">02</span></div>
+      <div class="project-list">
+        <article class="project">
+          <span class="project-index">01</span>
+          <div><h3>Nanocode Compiler</h3><p>A simplified educational compiler developed as an academic project, translating the fundamental ideas of computation theory into a practical, readable experience.</p></div>
+          <a class="project-link" href="https://nanocode.netlify.app/" target="_blank" rel="noreferrer">visit ↗</a>
+        </article>
+        <article class="project">
+          <span class="project-index">02</span>
+          <div><h3>Dino Jump</h3><p>A casual, cartoon-style platformer where a dinosaur climbs endlessly through the clouds. A small exercise in play, movement, and visual atmosphere.</p></div>
+          <a class="project-link" href="https://dinojumpp.netlify.app/" target="_blank" rel="noreferrer">visit ↗</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="practice" class="section">
+      <div class="section-heading"><h2>practice / interests</h2><span class="section-number">03</span></div>
+      <div class="info-grid">
+        <div class="info-block"><h3>creative coding</h3><ul><li>interactive experiments</li><li>visual systems</li><li>small tools with character</li></ul></div>
+        <div class="info-block"><h3>digital craft</h3><ul><li>web interfaces</li><li>pixel and dither aesthetics</li><li>art direction through constraints</li></ul></div>
+        <div class="info-block"><h3>currently learning</h3><ul><li>new frontend patterns</li><li>creative technology</li><li>ways to make ideas tangible</li></ul></div>
+      </div>
+      <p class="note">Also: films, music, and the quiet satisfaction of making a computer do exactly what was imagined.</p>
+    </section>
+
+    <section id="now-playing" class="section">
+      <div class="section-heading"><h2>now playing</h2><span class="section-number">04</span></div>
+      <div class="now-playing">
+        <div><div class="kicker">audio / current rotation</div><div class="track-title">Love in Gotham City</div><div class="track-meta">Seu Pereira e Coletivo 401</div></div>
+        <div class="equalizer" aria-label="Decorative animated equalizer"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="section-heading"><h2>find me elsewhere</h2><span class="section-number">05</span></div>
+      <div class="contact">
+        <div class="link-list">
+          <a href="https://github.com/arvoreburra" target="_blank" rel="noreferrer"><span>github</span><span>↗</span></a>
+          <a href="https://www.linkedin.com/in/nicolasmaricato/" target="_blank" rel="noreferrer"><span>linkedin</span><span>↗</span></a>
+          <a href="https://letterboxd.com/nicoolaaas/" target="_blank" rel="noreferrer"><span>letterboxd</span><span>↗</span></a>
+        </div>
+        <div class="link-list">
+          <a href="mailto:nyktree@gmail.com"><span>email</span><span>↗</span></a>
+          <a href="mailto:nyktree@gmail.com?subject=nyktree%20portfolio"><span>résumé / contact</span><span>↗</span></a>
+          <span class="note">discord: nyktree</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-shell footer"><span>nyktree / nicolas maricato</span><span>built with attention · <span data-year></span></span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
