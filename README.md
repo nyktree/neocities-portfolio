@@ -1,5 +1,3 @@
-# nyktree - Portfolio
-
 ## Overview
 
 The page is intentionally personal without feeling overly casual or corporate. It acts as a visual introduction to my background in computer science, creative coding, digital craft, music, games, art, and technology exploration.
